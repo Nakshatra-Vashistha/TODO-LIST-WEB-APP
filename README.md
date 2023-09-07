@@ -2,6 +2,17 @@
 
 This is a simple web-based todo list application that allows you to add and manage your tasks. It's built using HTML, CSS, and JavaScript, focusing on practicing arrays and loops.
 
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Author](#Author)
+- [Contributing](#contributing)
+- [Feedback](#Feedback)
+
+
+
 ## Features
 
 1. Add new tasks with a name and due date.
@@ -13,8 +24,9 @@ This is a simple web-based todo list application that allows you to add and mana
 To get started with the todo list web app, follow these steps:
 
 1. Clone this repository to your local machine:
-    bash 
-       git clone <repository-url>
+    ```bash 
+      git clone <repository-url>
+
 
 2. Open the index.html file in your web browser.
 
@@ -27,30 +39,7 @@ To get started with the todo list web app, follow these steps:
 5. Once you've completed a task, you can check it off by clicking on it.
 
 
-## Example
-Here's an example of how the HTML structure of the web app looks:
-html 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Meta tags and stylesheets -->
-</head>
-<body>
-  <p>Todo List Practice 1</p>
-  <div class="inputgrid">
-    <div class="input-container">
-      <input placeholder="ToDo name" class="js-name-input">
-      <input type="date" class="js-due-date-input">
-      <button onclick="addtodo()" class="add-todo-button">Add</button>
-    </div>
-  </div>
-  
-  <div class="js-todo-list todo-grid"></div>
-
-  <script src="jsusingforeach.js"></script>
-</body>
-</html>
 
 
 ## Author
