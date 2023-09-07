@@ -1,0 +1,62 @@
+body{
+  font-family: arial;
+}
+
+.todo-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 175px); /* Three equal-width columns */
+  grid-column-gap: 10px; /* Set the gap between columns */
+  margin-top: 30px;
+  align-items: center;
+  
+}
+
+
+
+.inputgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-column-gap: 30px; 
+  
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: 200px 150px 175px; 
+  grid-column-gap: 10px; 
+  
+}
+
+
+
+
+.js-name-input{
+  font-size: 15px;
+  padding: 6px;
+  height: 38px;
+}
+
+.js-due-date-input{
+  font-size: 15px;
+  padding: 6px;
+
+}
+.add-todo-button{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.delete-button{
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
